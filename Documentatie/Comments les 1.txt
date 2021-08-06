@@ -1,0 +1,30 @@
+py -m pip --version
+
+
+START NEW PROJECT
+py -m pipenv shell
+
+VIRTUEEL:
+py -m pip install pipenv
+
+pipenv install <module>
+	-flask
+
+########### WEBSITES:
+https://flask.palletsprojects.com/en/2.0.x/
+https://pokeapi.co/
+https://web.postman.co/
+
+############ voor in virtuele omgeving
+py -m pip --version
+py -m pipenv shell
+py -m pip install pipenv
+pipenv install flask
+
+############# run server
+flask run
+
+############# find the address the server runs on
+open cmd
+command: ipconfig
+pak bij wifi het ipv4
